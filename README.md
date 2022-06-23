@@ -31,3 +31,5 @@
 
 ### Update Data 
     UPDATE `product` SET `product_name`='Iced Tea' WHERE `id`=1;
+### Delete Data
+    DELETE FROM `product` WHERE `id`= 2;
