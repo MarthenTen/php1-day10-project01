@@ -25,3 +25,6 @@
 
 ### Delete Table
     DROP TABLE table_name
+
+### Insert Data 
+    INSERT INTO `product`(`id`, `product_name`) VALUES ('','Coffe Late')
