@@ -1,8 +1,8 @@
 # php1-day10-project01
 
-## sql commands
+## sql commands ✅
  
-### create conection #1
+### create conection #1 ✅
     $servername = 'localhost';
     $username = 'root';
     $password = '';
@@ -19,7 +19,7 @@
         echo "Tra Elor";
     }
 
-### create conection #2
+### create conection #2 ✅
     $comnect = new mysqli('localhost','root','','php1_day10');
 
     if (!$comnect->connect_error){
@@ -31,13 +31,13 @@
 
 
 
-### create new databases
+### create new databases ✅
     Create DATABASE dbname
 
-### Delete Database
+### Delete Database✅
     DROP DATABASE dbname
 
-### Create Table 
+### Create Table ✅
       CREATE TABLE product(
     id INT(11) AUTO_INCREMENT PRIMARY KEY ,
     product_name VARCHAR(50) NOT NULL
@@ -52,14 +52,14 @@
     created_at TIMESTAMP
     );
 
-### Delete Table
+### Delete Table✅
     DROP TABLE table_name;
 
-### Insert Data 
+### Insert Data ✅
     INSERT INTO `product`(`id`, `product_name`) VALUES ('','Coffe Late');
 
-### Update Data 
+### Update Data ✅
     UPDATE `product` SET `product_name`='Iced Tea' WHERE `id`=1;
-### Delete Data
+### Delete Data ✅
     DELETE FROM `product` WHERE `id`= 2;
 
