@@ -21,10 +21,13 @@
     last_name VARCHAR(50) NULL,
     email VARCHAR(50) NULL,
     created_at TIMESTAMP
-    )
+    );
 
 ### Delete Table
-    DROP TABLE table_name
+    DROP TABLE table_name;
 
 ### Insert Data 
-    INSERT INTO `product`(`id`, `product_name`) VALUES ('','Coffe Late')
+    INSERT INTO `product`(`id`, `product_name`) VALUES ('','Coffe Late');
+
+### Update Data 
+    UPDATE `product` SET `product_name`='Iced Tea' WHERE `id`=1;
